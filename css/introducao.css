@@ -1,0 +1,233 @@
+.emblema-cla {
+  place-self: start;
+  margin-top: 100px;
+  display: grid;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  grid-template-columns: 80px 1fr;
+  background-color: var(--core1);
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+.emblema-cla-info {
+  align-content: center;
+}
+
+.emblema-cla h2 {
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.emblema-cla p {
+  font-weight: 500;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--core1);
+  color: white;
+  padding: 30px;
+  gap: 30px;
+}
+
+.introducao-info1 h1 {
+  margin-bottom: 30px;
+}
+.introducao-info {
+  display: grid;
+  gap: 30px;
+}
+
+.introducao-info2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+}
+
+.introducao-info2-card1 {
+  display: grid;
+  background-color: var(--core0);
+  padding: 15px;
+  padding-top: 10px;
+  place-self: start;
+  border: 2px solid #000;
+  border-radius: 15px;
+  gap: 5px;
+}
+
+.card1-info {
+  display: grid;
+  gap: 5px;
+}
+
+.introducao-info2-card1 img,
+.introducao-info2-card2 img {
+  max-width: 180px;
+  margin-bottom: 5px;
+}
+
+.introducao-info2-card1 h2,
+.introducao-info2-card2 h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.introducao-info2-card2 {
+  display: grid;
+  background-color: var(--core0);
+  padding: 15px;
+  padding-top: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+.introducao-info2-card2 p {
+  font-size: 1.3rem;
+  color: #e6e6e6;
+}
+
+.introducao-img img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+@media (max-width: 1450px) {
+  .introducao-info2-card2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao-info2-card2 p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .introducao-img {
+    max-height: 800px;
+  }
+
+  .introducao-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 900px) {
+  .introducao-info1 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .introducao-info2-card2 p {
+    font-size: 1rem;
+  }
+
+  .introducao-img {
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao-info {
+    gap: 20px;
+  }
+
+  .introducao-info2 {
+    gap: 10px;
+  }
+  .introducao-info1,
+  .introducao-info2-card2 p,
+  .introducao-info2-card1 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .emblema-cla {
+    margin-bottom: 10px;
+  }
+
+  .emblema-cla-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
+  .emblema-cla-info p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .forma {
+    width: 95vw;
+  }
+
+  .introducao-info2 {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao-info2-card1 img {
+    width: 100%;
+  }
+
+  .introducao-info2-card1 {
+    justify-self: center;
+    border-radius: 25px;
+    padding: 5px;
+    gap: 15px;
+    grid-template-columns: 140px 1fr;
+    font-size: 1rem;
+  }
+
+  .card1-info {
+    align-self: center;
+  }
+
+  .card1-info h2 {
+    text-align: start;
+  }
+}
+
+@media (max-width: 500px) {
+  .introducao {
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  .introducao-info1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .introducao-info2-card1 {
+    grid-template-columns: 100px 1fr;
+  }
+
+  .card1-info h2 {
+    margin-bottom: 5px;
+  }
+
+  .card1-info {
+    font-size: 0.9rem;
+    gap: 0px;
+  }
+
+  .emblema-cla {
+    justify-self: center;
+    grid-template-columns: 80px 1fr;
+    padding: 5px;
+  }
+
+  .emblema-cla-info h2 {
+    font-size: 1.3rem;
+  }
+}

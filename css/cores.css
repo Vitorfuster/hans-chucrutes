@@ -1,0 +1,42 @@
+:root {
+  --core0: #000000;
+  --core05: #0c0c0c;
+  --core1: #161616;
+  --core2: #2b2b2b;
+  --core3: #414141;
+  --core4: #565656;
+
+  /* --core0: #111111;
+  --core1: #333333;
+  --core2: #cec8ce;
+  --core3: #dad3da;
+  --core4: #565656; */
+}
+
+.txt-color1 {
+  color: #fff;
+}
+
+.txt-color2 {
+  color: #e6e6e6;
+}
+
+.font-peso1 {
+  font-weight: 300;
+}
+
+.font-peso2 {
+  font-weight: 400;
+}
+
+.font-peso3 {
+  font-weight: 500;
+}
+
+.font-peso4 {
+  font-weight: 700;
+}
+
+.font-peso5 {
+  font-weight: 800;
+}
