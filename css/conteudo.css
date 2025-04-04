@@ -118,12 +118,15 @@
   padding: 10px;
   padding: 15px;
   border-radius: 15px;
-  border: 2px solid white;
-  background: radial-gradient(#636363, #363636);
-  max-width: 20%;
+  border: 2px solid rgb(255, 255, 255);
+  background: #000;
+  max-width: 30%;
   height: auto;
   right: 50px;
   top: 200px;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  color: #fff;
 }
 
 .descricao-imagem h2 {
@@ -151,7 +154,7 @@
   }
 
   .descricao-imagem {
-    max-width: 40%;
+    max-width: 70%;
     height: auto;
     right: 50px;
     top: 650px;
@@ -160,7 +163,7 @@
 
 @media (max-width: 850px) {
   .descricao-imagem {
-    max-width: 40%;
+    max-width: 80%;
     height: auto;
     right: 50px;
     top: 650px;
