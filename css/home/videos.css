@@ -4,6 +4,8 @@
   display: grid;
   justify-content: center;
   padding-bottom: 50px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .videos h1 {
@@ -29,4 +31,10 @@
   max-width: 100%;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
+}
+
+@media (max-width: 570px) {
+  .videos {
+    padding-bottom: 10px;
+  }
 }

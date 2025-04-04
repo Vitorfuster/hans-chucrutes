@@ -1,0 +1,11 @@
+/* Global */
+@import "./global.css";
+@import "./cores.css";
+@import "./tipografia.css";
+
+/* Home */
+@import "../home/introducao.css";
+@import "../home/header.css";
+@import "../home/footer.css";
+@import "../home/conteudo.css";
+@import "../home/videos.css";

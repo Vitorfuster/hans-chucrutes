@@ -1,6 +1,12 @@
+.emblemas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 100px;
+}
+
 .emblema-cla {
   place-self: start;
-  margin-top: 100px;
   display: grid;
   gap: 15px;
   padding: 10px;
@@ -10,6 +16,11 @@
   background-color: var(--core1);
   color: rgb(255, 255, 255);
   margin-bottom: 30px;
+  min-width: 260px;
+}
+
+.emblema-cla:hover {
+  background-color: var(--core4);
 }
 
 .emblema-cla-info {
@@ -200,9 +211,12 @@
 
 @media (max-width: 550px) {
   .emblema-cla {
-    justify-self: center;
     grid-template-columns: 80px 1fr;
     padding: 5px;
+  }
+
+  .emblemas {
+    justify-content: center;
   }
 }
 @media (max-width: 500px) {

@@ -6,19 +6,16 @@
   --core3: #414141;
   --core4: #565656;
 
-  /* --core0: #111111;
-  --core1: #333333;
-  --core2: #cec8ce;
-  --core3: #dad3da;
-  --core4: #565656; */
+  --txt-color1: #fff;
+  --txt-color2: #fff;
 }
 
 .txt-color1 {
-  color: #fff;
+  color: var(--txt-color1);
 }
 
 .txt-color2 {
-  color: #e6e6e6;
+  color: var(--txt-color2);
 }
 
 .font-peso1 {
