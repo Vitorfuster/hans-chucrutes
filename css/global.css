@@ -24,12 +24,11 @@ ul {
 
 .forma-bg {
   background-color: var(--core2);
-  padding-bottom: 300px;
+  padding-bottom: 50px;
 }
 
 .forma {
   width: 90vw;
-  max-width: 1300px;
   margin: 0px auto;
   display: grid;
 }
