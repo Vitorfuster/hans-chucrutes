@@ -198,6 +198,13 @@
   }
 }
 
+@media (max-width: 550px) {
+  .emblema-cla {
+    justify-self: center;
+    grid-template-columns: 80px 1fr;
+    padding: 5px;
+  }
+}
 @media (max-width: 500px) {
   .introducao {
     padding: 20px 10px;
@@ -219,12 +226,6 @@
   .card1-info {
     font-size: 0.9rem;
     gap: 0px;
-  }
-
-  .emblema-cla {
-    justify-self: center;
-    grid-template-columns: 80px 1fr;
-    padding: 5px;
   }
 
   .emblema-cla-info h2 {

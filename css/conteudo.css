@@ -177,6 +177,17 @@
     height: auto;
     justify-self: center;
   }
+
+  .introducao {
+    padding: 10px;
+  }
+
+  .conteudo {
+    padding: 10px;
+  }
+  .img-jogador {
+    display: none;
+  }
 }
 
 @media (max-width: 470px) {
