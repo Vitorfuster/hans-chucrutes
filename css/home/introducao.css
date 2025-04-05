@@ -1,3 +1,11 @@
+.forma > h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px 0px;
+  display: none;
+}
+
 .emblemas {
   display: flex;
   flex-wrap: wrap;
@@ -140,6 +148,19 @@
     line-height: 1.5rem;
   }
 
+  .forma > h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px 0px;
+    display: block;
+  }
+
+  .emblemas {
+    margin-top: 0px;
+    justify-content: center;
+  }
+
   .introducao-info2-card2 p {
     font-size: 1rem;
   }
@@ -152,6 +173,10 @@
 @media (max-width: 800px) {
   .introducao-info {
     gap: 20px;
+  }
+
+  .forma {
+    width: 95vw;
   }
 
   .introducao-info2 {
@@ -179,12 +204,12 @@
 }
 
 @media (max-width: 650px) {
-  .forma {
-    width: 95vw;
-  }
-
   .introducao-info2 {
     grid-template-columns: 1fr;
+  }
+
+  .emblemas {
+    margin-top: 10px;
   }
 
   .introducao-info2-card1 img {
@@ -209,14 +234,64 @@
   }
 }
 
+@media (max-width: 619px) {
+  .emblema-cla {
+    position: relative;
+  }
+
+  .emblema-cla:hover::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../../img/icones/hover-direita.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    left: -60px;
+  }
+
+  .emblema-cla:hover::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../../img/icones/hover-esquerda.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    right: -60px;
+  }
+
+  .flecha::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../../img/icones/flecha.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    left: -60px;
+  }
+
+  .flecha::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../../img/icones/esquerda.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    right: -60px;
+  }
+}
+
 @media (max-width: 550px) {
   .emblema-cla {
     grid-template-columns: 80px 1fr;
     padding: 5px;
-  }
-
-  .emblemas {
-    justify-content: center;
   }
 }
 @media (max-width: 500px) {
