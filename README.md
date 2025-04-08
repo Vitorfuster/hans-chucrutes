@@ -12,5 +12,7 @@
 <br>
 <h2>O projeto esta responsivo e tem algumas páginas e opções, não utilizei nenhuma linguagem de programação ainda</h2>
 
+<div align="center">
 <img src="https://github.com/Vitorfuster/hans-chucrutes/blob/main/img/img-git/site-cell.png?raw=true"></img>
 <img src="https://github.com/Vitorfuster/hans-chucrutes/blob/main/img/img-git/site-cell-repo.png?raw=true"></img>
+</div>
